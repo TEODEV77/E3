@@ -116,8 +116,9 @@ class ProductManager {
     return this.products;
   }
 
-  getProductById(id) {
-    const product = this.products.find((product) => product.id === id);
+  getProductById(id, list) {
+   
+    const product = list.find((product) => product.id === id);
 
     if (!product) {
       return `The product with code ${id} no exists`;
