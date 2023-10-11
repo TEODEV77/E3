@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "iPhone 14 Pro",
+        "description": "The iPhone 14 Pro is Apple's most advanced smartphone. It features a 6.1-inch OLED display, an A16 Bionic processor, a 48-megapixel triple camera, and long-lasting battery life.",
+        "price": 1299,
+        "thumbnail": "https://i.imgur.com/u29o84R.jpg",
+        "code": "iphone14pro",
+        "stock": 100
+    },
+    {
+        "id": 2,
+        "title": "Samsung Galaxy Z Fold 4",
+        "description": "The Samsung Galaxy Z Fold 4 is a cutting-edge foldable smartphone with a flexible AMOLED display, powerful Snapdragon processor, versatile camera system, and exceptional multitasking capabilities.",
+        "price": 1599,
+        "thumbnail": "Insert_image_link_here",
+        "code": "galaxyzfold4",
+        "stock": 75
+    },
+    {
+        "id": 3,
+        "title": "MacBook Pro 2023",
+        "description": "The MacBook Pro 2023 is Apple's flagship laptop, featuring a stunning Retina display, M2 Pro chip, an improved Magic Keyboard, and outstanding performance for creative professionals.",
+        "price": 2199,
+        "thumbnail": "Insert_image_link_here",
+        "code": "macbookpro2023",
+        "stock": 50
+    },
+    {
+        "id": 4,
+        "title": "Sony Alpha A7IV Camera",
+        "description": "The Sony Alpha A7IV is a full-frame mirrorless camera with 30 megapixels, 4K video, and impressive low-light performance, making it ideal for professional photographers and videographers.",
+        "price": 2499,
+        "thumbnail": "Insert_image_link_here",
+        "code": "alphaa7iv",
+        "stock": 30
+    },
+    {
+        "id": 5,
+        "title": "LG 65-Inch 4K OLED TV",
+        "description": "The LG 65-Inch 4K OLED TV delivers stunning visuals with perfect blacks and vibrant colors. It's equipped with smart features, HDR support, and an immersive home theater experience.",
+        "price": 1199,
+        "thumbnail": "Insert_image_link_here",
+        "code": "lg65oledtv",
+        "stock": 40
+    },
+    {
+        "id": 6,
+        "title": "Dyson V12 Cordless Vacuum Cleaner",
+        "description": "The Dyson V12 is a high-performance cordless vacuum cleaner that offers powerful suction, advanced filtration, and versatile cleaning attachments for a spotless home.",
+        "price": 399,
+        "thumbnail": "Insert_image_link_here",
+        "code": "dysonv12",
+        "stock": 60
+    },
+    {
+        "id": 7,
+        "title": "Bose QuietComfort 45 Headphones",
+        "description": "The Bose QuietComfort 45 headphones provide exceptional noise-cancellation, premium sound quality, and all-day comfort, making them perfect for travel and daily use.",
+        "price": 349,
+        "thumbnail": "Insert_image_link_here",
+        "code": "quietcomfort45",
+        "stock": 80
+    },
+    {
+        "id": 8,
+        "title": "Fitbit Versa 5 Smartwatch",
+        "description": "The Fitbit Versa 5 is a feature-packed smartwatch with health tracking, GPS, music playback, and customizable watch faces, helping you stay active and connected.",
+        "price": 199,
+        "thumbnail": "Insert_image_link_here",
+        "code": "fitbitversa5",
+        "stock": 70
+    },
+    {
+        "id": 9,
+        "title": "Nintendo Switch Pro",
+        "description": "The Nintendo Switch Pro offers enhanced gaming experiences with improved graphics, a larger OLED screen, and a powerful processor for avid gamers.",
+        "price": 349,
+        "thumbnail": "Insert_image_link_here",
+        "code": "nintendoswitchpro",
+        "stock": 90
+    },
+    {
+        "id": 10,
+        "title": "KitchenAid Artisan Stand Mixer",
+        "description": "The KitchenAid Artisan Stand Mixer is a kitchen essential, featuring powerful mixing, various attachments, and stylish design for all your baking and cooking needs.",
+        "price": 349,
+        "thumbnail": "Insert_image_link_here",
+        "code": "kitchenaidmixer",
+        "stock": 55
+    }
+]
