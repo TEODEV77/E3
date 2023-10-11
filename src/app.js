@@ -10,10 +10,9 @@ app.use(express.urlencoded({ extended: true }));
 app.get("/products", async (req, res) => {
   const { limit } = req.query;
   try {
-    let products = await productManager.load();
+    const products = await productManager.load();
     if (limit) {
-      products = products.slice(0, limit);
-      res.json(products);
+      res.json(products.slice(0, limit));
     } else {
       res.json(products);
     }
@@ -23,8 +22,8 @@ app.get("/products", async (req, res) => {
 app.get("/products/:id", async (req, res) => {
   const { id } = req.params;
   try {
-    let products = await productManager.load();
-    let result = productManager.getProductById(parseInt(id), products);
+    const products = await productManager.load();
+    const result = await productManager.getProductById(parseInt(id), products);
     res.json(result);
   } catch (error) {}
 });
